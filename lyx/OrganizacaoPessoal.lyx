@@ -1,0 +1,1081 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass extbook
+\begin_preamble
+\usepackage {graphicx}
+\usepackage {longtable}
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+
+% Comentar linhas abaixo se não estiver usando pacote abntex
+% ou se o pacote ainda não foi instalado.
+% neste caso sugere-se usar citações no padrão apalike (lembra o da anbt).
+%\usepackage[alf ,abnt-etal-cite=2 , abnt-year-extra-label=yes , abnt-etal-list=0]{abntcite}
+%Adicionado et all em italico
+%\usepackage[alf ,abnt-etal-cite=2 , abnt-year-extra-label=yes , abnt-etal-list=0, abnt-etal-text=it]{abntcite}
+%\usepackage {helvet}
+%\renewcommand {\familydefault}{\sfdefault}
+%\usepackage[abnt-etal-text=emph,......]{abntcite} ou \usepackage[abnt-etal-text=it,......]{abntcite} 
+
+\usepackage{color}
+\definecolor{azulclaro}{rgb}{0.6,1,1}%   rgb color model
+% Informa que vai usar o pacote listings, 
+% disponibilizado em /usr/share/texmf/doc/latex/styles/listings.dvi
+\usepackage{listings}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language brazilian
+\language_package %dummy
+\inputencoding iso8859-1
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref true
+\pdf_title "Título da Monografia - Dissertação - Tese"
+\pdf_author "Nome do Autor"
+\pdf_subject "Descrever assunto"
+\pdf_keywords "Copiar do resumo"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref page
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\size large
+UNIVERSIDADE ESTADUAL DO NORTE FLUMINENSE
+\begin_inset Newline newline
+\end_inset
+
+CENTRO DE CIÊNCIA E TECNOLOGIA
+\begin_inset Newline newline
+\end_inset
+
+LABORATÓRIO DE ENGENHARIA E EXPLORAÇÃO DE PETRÓLEO
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+ORGANIZAÇÃO PESSOAL E PLANO DE ESTUDO 
+\begin_inset Newline newline
+\end_inset
+
+PARA REALIZAÇÃO DO CURSO DE ENGENHARIA DE PETRÓLEO DA UENF
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+NOME COMPLETO DO AUTOR(A)
+\size default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 6cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+MACAÉ - RJ
+\begin_inset Newline newline
+\end_inset
+
+Março - 2024
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Apresentação pessoal : resumo do 
+\emph on
+curriculun
+\end_layout
+
+\begin_layout Itemize
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Foto: 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../imagens/FotoPessoal.jpg
+	width 3cm
+	height 4cm
+	keepAspectRatio
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Nome:
+
+\end_layout
+
+\begin_layout Itemize
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Endereço:
+
+\end_layout
+
+\begin_layout Itemize
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Email 1:
+\end_layout
+
+\begin_layout Itemize
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+Email 2:
+\end_layout
+
+\begin_layout Itemize
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+Telefone 1:
+\end_layout
+
+\begin_layout Itemize
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+Telefone 2:
+
+\end_layout
+
+\begin_layout Itemize
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Nome Mãe:
+
+\end_layout
+
+\begin_layout Itemize
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Telefone:
+
+\end_layout
+
+\begin_layout Subsection
+Formação do primeiro grau
+\end_layout
+
+\begin_layout Itemize
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Cidade:
+
+\end_layout
+
+\begin_layout Itemize
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Estado:
+
+\end_layout
+
+\begin_layout Itemize
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Nome colégio: 
+
+\end_layout
+
+\begin_layout Subsection
+Formação do segundo grau
+\end_layout
+
+\begin_layout Itemize
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Cidade:
+
+\end_layout
+
+\begin_layout Itemize
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Estado:
+
+\end_layout
+
+\begin_layout Itemize
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Nome colégio: 
+
+\end_layout
+
+\begin_layout Itemize
+Descreva, resumidamente, as disciplinas que mais gostou no segundo grau.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+O Futuro profissional de engenharia de petróleo
+\end_layout
+
+\begin_layout Standard
+Nesta seção vou falar do futuro, como me vejo daqui 15-20 anos, minha atuação
+ como profissional de engenharia.
+\end_layout
+
+\begin_layout Subsection
+Visão
+\end_layout
+
+\begin_layout Itemize
+Na visão você descreve o que espera do seu futuro profissional(como você
+ vai estar daqui digamos 20 anos); 
+\end_layout
+
+\begin_layout Itemize
+O que espera da sua profissão? 
+\end_layout
+
+\begin_layout Subsection
+Objetivos 
+\end_layout
+
+\begin_layout Standard
+Meus objetivos profissionais são:
+\end_layout
+
+\begin_layout Itemize
+Objetivo geral:
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+[.....descrever de forma clara, direta, objetiva].
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Objetivos específicos:
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+[.....descrever de forma clara, direta, objetiva, cada objetivo específico].
+\end_layout
+
+\begin_layout Itemize
+[.....descrever de forma clara, direta, objetiva, cada objetivo específico].
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+O Curso de engenharia de petróleo
+\end_layout
+
+\begin_layout Standard
+Nesta seção vou falar do curso de engenharia de petróleo da UENF, porque
+ escolhi engenharia petróleo e o que espero do curso - minhas expectativas.
+\end_layout
+
+\begin_layout Subsection
+Porque escolhi engenharia de petróleo?
+\end_layout
+
+\begin_layout Itemize
+Descreva os reais motivos que o levaram a escolha desta profissão.
+\end_layout
+
+\begin_layout Subsection
+O que espero do curso?
+\end_layout
+
+\begin_layout Itemize
+Porque escolhi o curso da UENF?
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+expectativas com relação infra-estrutura disponível;
+\end_layout
+
+\begin_layout Itemize
+expectativas com relações aos professores;
+\end_layout
+
+\begin_layout Itemize
+expectativas com relação as disciplinas do ciclo básico;
+\end_layout
+
+\begin_layout Itemize
+expectativas com relação as disciplinas do ciclo profissionalizante;
+\end_layout
+
+\begin_layout Itemize
+expectativas com relação atividades IC;
+\end_layout
+
+\begin_layout Itemize
+expectativas com relação atividades estágio;
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+O que espera dos seus próximos 5-7 anos; período em que vai realizar o curso
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Uma coisa é a visão do futuro, como espero estar daqui 15-20 anos; outra
+ coisa é entender que tenho um longo caminho a percorrer, passando, inicialmente
+ por enfrentar uma série de desafios nos próximos 5-7 anos.
+ Fale aqui dos desafios a serem enfrentados dentro da universidade; Como
+ você imagina que as coisas serão, o que você espera.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Plano de estudo
+\end_layout
+
+\begin_layout Standard
+Nos itens a seguir descrevo a organização do meu local de estudo, meu método
+ de estudo e ferramentas de produtividade que uso atualmente.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+fale o que já fez e o que pretende fazer para se organizar melhor; 
+\end_layout
+
+\begin_layout Plain Layout
+para ser mais eficiente e produtivo em seus estudos; 
+\end_layout
+
+\begin_layout Plain Layout
+como pretende realizar o curso; 
+\end_layout
+
+\begin_layout Plain Layout
+como pretende se motivar para realizar as disciplinas mais difíceis;
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Organização do local de estudo
+\end_layout
+
+\begin_layout Itemize
+Fale do seu local de estudo, coloque foto de como ele é atualmente; 
+\end_layout
+
+\begin_layout Itemize
+Fale de como o mesmo vai ser melhorado; se quizer pode colocar fotografias;
+\end_layout
+
+\begin_layout Subsection
+Método de estudo
+\end_layout
+
+\begin_layout Itemize
+Fale da forma como você costuma estudar; o que pretende melhorar considerando-se
+ que na universidade a necessidade de dedicação aos estudos é bem diferente
+ e bem maior que no segundo grau.
+\end_layout
+
+\begin_layout Itemize
+Fale dos dispositivos usados para estudar: livros; apostilas; anotações
+ de aula; computador; tablet; calculadora; 
+\end_layout
+
+\begin_layout Itemize
+Fale de atividades complementares: programas da TV como discovery - grandes
+ obras, etc; participação SPE; palestras; seminários; etc.
+\end_layout
+
+\begin_layout Itemize
+Fale do seu relacionamento com colegas; como formar grupos de trabalho;
+ como realizar trabalhos em grupo; como aumentar a interação com os colegas;
+\end_layout
+
+\begin_layout Itemize
+Fale das ferramentas de produtividade e organização que irá utilizar; por
+ exemplo; gmail para mensagens; google agenda para agenda pessoal; dropbox
+ para compartilhamento de arquivos; doit para controle de pequenos projetos;
+ trello para projetos em equipe; evernote para captura de informações da
+ internet; etc;
+\end_layout
+
+\begin_layout Subsection
+Ferramentas de produtividade
+\end_layout
+
+\begin_layout Itemize
+Capture tela de programas que já esta usando; coloque aqui e comente;
+\end_layout
+
+\begin_layout Itemize
+ex: tela dos diretórios pessoais, comentários
+\end_layout
+
+\begin_layout Itemize
+ex: tela do trello, comentários
+\end_layout
+
+\begin_layout Itemize
+ex: tela do evernote, comentários
+\end_layout
+
+\begin_layout Itemize
+ex: tela do dropbox, comentários
+\end_layout
+
+\begin_layout Itemize
+ex: tela do github, comentários
+\end_layout
+
+\begin_layout Itemize
+lembrem-se que o professor mostrou, em sala de aula, imagens com exemplos;
+ em que a estrutura mental, a organização dos arquivos se repetia nas diferentes
+ ferramentas de apoio.
+\end_layout
+
+\begin_layout Standard
+Veja na Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Estrutura-padrão-usada-Bueno"
+
+\end_inset
+
+ a estrutura padrão utilizada pelo professor.
+ Observe que a estrutura mental é a mesma, independente da ferramenta utilizada
+ sempre tenho a seguinte divisão:
+\end_layout
+
+\begin_layout Itemize
+01-Pessoal.
+\end_layout
+
+\begin_layout Itemize
+02-Ensino.
+\end_layout
+
+\begin_layout Itemize
+03-Pesquisa.
+\end_layout
+
+\begin_layout Itemize
+04-Extensao.
+\end_layout
+
+\begin_layout Itemize
+05-Gestao.
+ 
+\end_layout
+
+\begin_layout Standard
+Você deve montar uma estrutura de diretórios, organização mental, que irá
+ replicar em diversos os aplicativos que usa.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/3-EstruturaLogica-Diretorios-e-Programas.png
+	lyxscale 25
+	width 100text%
+	height 75theight%
+	keepAspectRatio
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Estrutura padrão usada em diferentes ferramentas de produtividade [Fonte:
+ Prof.Bueno]
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Estrutura-padrão-usada-Bueno"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Planejamento do curso
+\end_layout
+
+\begin_layout Standard
+Nesta seção você monta o planejamento de seu curso, agenda e metas.
+\end_layout
+
+\begin_layout Subsection
+Primeiro semestre - agenda
+\end_layout
+
+\begin_layout Standard
+montar agenda para o primeiro semestre no google agenda; 
+\end_layout
+
+\begin_layout Standard
+listar todas as disciplinas na agenda - use a opção de repetição para aulas
+ que repetem 2x por semana;
+\end_layout
+
+\begin_layout Standard
+para cada horário de aula reservar 2h de estudo em casa - anote isto na
+ agenda; 
+\end_layout
+
+\begin_layout Standard
+no sábado reservar horário para estudos extras para provas;
+\end_layout
+
+\begin_layout Standard
+depois que finalizar a montagem da agenda; capture a imagem da agenda do
+ primeiro semestre e coloque aqui; 
+\series bold
+faça comentários
+\end_layout
+
+\begin_layout Subsection
+Primeiro semestre - metas
+\end_layout
+
+\begin_layout Standard
+descreva as metas deste primeiro semestre;
+\end_layout
+
+\begin_layout Itemize
+Meta 1: Descrição [data conclusão]
+\end_layout
+
+\begin_layout Itemize
+Meta 2: Descrição [data conclusão]
+\end_layout
+
+\begin_layout Itemize
+Meta 3: Descrição [data conclusão]
+\end_layout
+
+\begin_layout Itemize
+Meta 4: Descrição [data conclusão]
+\end_layout
+
+\begin_layout Itemize
+...
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Análises e Conclusões
+\end_layout
+
+\begin_layout Itemize
+[descreva em detalhes as conclusões deste trabalho.....].
+ Para fazer este trabalho você teve de ler material em sites e bibliotecas;
+ o professor disponibilizou vídeos através da plataforma do trello; passou
+ links e informações extras; livros de introdução engenharia que falam da
+ metodologia de estudo; como se organizar; como se planejar; aqui você deve
+ falar do que aprendeu com a realização deste trabalho; porque ele é importante
+ para você;
+\end_layout
+
+\begin_layout Itemize
+[É uma síntese conclusiva de tudo o que foi feito e dos benefícios de se
+ organizar; de ter um plano de estudo; de ter uma visão de sua vida profissional
+ (futuro - longo prazo) e da realização do seu curso (médio prazo)].
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\noindent
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "bibliografia"
+options "abnt-alf"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Dicas importantes
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Apague este texto na versão final;
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Releituras/Revisões
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Seu texto ficará muito melhor depois de quatro releituras.
+\end_layout
+
+\begin_layout Itemize
+Na primeira cheque a lógica, o leiaute.
+\end_layout
+
+\begin_layout Itemize
+Na segunda, cheque a linguagem(ortografia; gramática), os títulos e as referênci
+as.
+\end_layout
+
+\begin_layout Itemize
+Na terceira cheque as informações, os valores e resultados.
+ Erros de datilografia, grafia e acentuação.
+\end_layout
+
+\begin_layout Itemize
+Na quarta corte tudo o que for desnecessário.
+ Elimine as repetições.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Antes de imprimir ou gerar pdf:
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Faça verificação da qualidade de tabelas e figuras;
+\end_layout
+
+\end_deeper
+\end_body
+\end_document
